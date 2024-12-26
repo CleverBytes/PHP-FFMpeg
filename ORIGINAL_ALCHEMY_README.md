@@ -10,7 +10,7 @@ You may wonder *Why building a library while I can use `exec` or
 [symfony/process](https://github.com/symfony/Process) ?*.
 
 Here is a simple answer :
-
+furnished to do so, subject to the following conditions:
  - If you use `exec`, `passthru`, `system`, `proc_open` or any low level process
    handling in PHP, you should have a look to [symfony/process](https://github.com/symfony/Process)
    component that will provide an OO portable, testable and secure interface to
